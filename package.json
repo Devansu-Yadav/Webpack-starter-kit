@@ -1,0 +1,39 @@
+{
+  "name": "webpack-starter-kit",
+  "version": "1.0.0",
+  "description": "Build vanilla JS apps with modern tools",
+  "main": "index.js",
+  "babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devansu-Yadav/Webpack-starter-kit.git"
+  },
+  "author": "Devansu Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devansu-Yadav/Webpack-starter-kit/issues"
+  },
+  "homepage": "https://github.com/Devansu-Yadav/Webpack-starter-kit#readme",
+  "devDependencies": {
+		"@babel/core": "^7.14.2",
+		"@babel/preset-env": "^7.14.2",
+		"babel-loader": "^8.2.2",
+		"css-loader": "^5.2.4",
+		"html-webpack-plugin": "^5.3.1",
+		"lodash": "^4.17.21",
+		"style-loader": "^2.0.0",
+		"webpack": "^5.37.0",
+		"webpack-cli": "^4.7.0",
+		"webpack-dev-server": "^3.11.2"
+	}
+}
