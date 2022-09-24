@@ -20,6 +20,8 @@ The tool kit provides the following features:
 2. `cd Webpack-starter-kit`
 3. Run `npm install`
 
+You can also use the following command to get this template - `degit https://github.com/Devansu-Yadav/Webpack-starter-kit`
+
 ## Running on development using dev server
 
 Run `npm start` to start Webpack dev server.

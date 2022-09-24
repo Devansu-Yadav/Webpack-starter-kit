@@ -1,10 +1,12 @@
 import { App } from "./App";
-import Logo from "./logo.svg";
+import React from "react";
+import ReactDOM from "react-dom";
 
 const root = document.getElementById("root");
 
-root.innerHTML = `
-<img src='${Logo}' alt='tool icon' />
-<h1> learning web tooling today </h1>
-${App({ name: "Devansu Yadav" })}
-`;
+ReactDOM.render(
+    <React.StrictMode>
+        <App name="User" />
+    </React.StrictMode>,
+    root
+);
