@@ -13,6 +13,8 @@ The tool kit provides the following features:
  - Caching
  - Webpack dev server
  - Run ESlint checks
+ - Lazy Loading
+ - Bundle Analyzer
 
 ## Installation
 
